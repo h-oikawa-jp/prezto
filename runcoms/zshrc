@@ -59,3 +59,7 @@ alias berc='bundle exec rails c'
 alias sberc='sudo bundle exec rails c'
 
 
+##### install commands
+
+eval "$(direnv hook zsh)"
+eval "$(anyenv init -)"
